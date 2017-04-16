@@ -1,0 +1,30 @@
+html {
+  font-family: "News Cycle", serif;
+  color: #4d4d4d;
+  font-size: 12pt;
+}
+.content {
+  text-align: center;
+}
+.logo {
+  margin-top: 30px;
+}
+.info {
+  margin-top: 10px;
+}
+.author {
+  font-weight: bold;
+  margin-top: 30px;
+}
+.author img {
+  border-radius: 30px;
+}
+.social-networks {
+  font-size: 20px;
+}
+.social-networks a {
+  color: #818181;
+}
+.social-networks a:hover {
+  color: #38364a;
+}
