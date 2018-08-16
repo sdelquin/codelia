@@ -1,9 +1,10 @@
 from fabric.api import env, local, cd, run
 
-env.hosts = ["production"]
+env.hosts = ['production']
 
 
 def deploy():
-    local("git push")
-    with cd("~/codelia"):
-        run("git pull")
+    local('git push')
+    with cd('~/codelia'):
+        run('git pull')
+        run('pipenv install')
